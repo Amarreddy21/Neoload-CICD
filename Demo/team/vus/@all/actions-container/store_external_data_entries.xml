@@ -1,0 +1,19 @@
+<custom-action actionType="Store External Data Entries" isHit="false"
+    name="store_external_data_entries" uid="ee7b3503-bcf7-4cfe-a24f-4d29ed05a6ac">
+    <description>This action stores several values at a time in the External Data part of the results through the DataExchange API.
+If the values are all numericals, they will be store in the value of entries, if there is at least one string it will be store in the url of the entries.
+
+Possible parameters are:
+- variableName: (required) the name of the multi-valued variable which contains the values to be stored. Example: 'myValues' (not '${myValues}').
+- path: (required) the string representing the list of nodes that contains the entry.
+- unit: (optional) the unit of the entry.
+- code: (optional) the string code of the status associated to the entry.
+- message: (optional) the message of the status associated to the entry.
+- state: (optional) the state of the status associated to the entry. Possible values are PASS and FAIL.
+- DataExchangeAPIURL: (optional) Where the DataExchange server is located. Optional, by default it is: http://${NL-ControllerIp}:7400/DataExchange/v1/Service.svc/.
+- DataExchangeAPIKey: (optional) Identification key specified in NeoLoad.
+- locale: (optional) the locale used to parse the numerical value. Default are English then French.</description>
+    <custom-action-parameter name="variableName" type="TEXT" value=""/>
+    <custom-action-parameter name="path" type="TEXT" value=""/>
+    <responsePageFileDescription>recorded-responses/res_e62619e4-0de5-4866-88e7-fc5f069caf1c</responsePageFileDescription>
+</custom-action>

@@ -1,0 +1,24 @@
+<custom-action actionType="Perfecto Mobile" isHit="false"
+    name="perfecto_mobile" uid="adfabc66-680f-4bba-96c7-5d4918a83124">
+    <description>Possible parameters are:&#xd;
+- perfectoURL (required): The URL to use for API calls. For example, https://mycloud.perfectomobile.com/services/. Default value is "https://&lt;accountName&gt;.perfectomobile.com/services/".&#xd;
+- securityToken (optional): The Perfecto personal security token. Default value is "&lt;securityToken&gt;".&#xd;
+- username (optional): Deprecated - use SecurityToken&#xd;
+- password (optional): Deprecated - use SecurityToken&#xd;
+- script (required): The name of the Perfecto script to run. Default value is "&lt;Perfecto_Script_Name.xml&gt;".&#xd;
+- DataExchangeAPIURL (optional): Where the DataExchange server is located. Optional, by default it is: http://${NL-ControllerIp}:7400/DataExchange/v1/Service.svc/&#xd;
+- instanceID (optional): This value is appended to the script name when displaying data in NeoLoad.&#xd;
+- DataExchangeAPIKey (optional): Identification key specified in NeoLoad.&#xd;
+- httpsProxyHost (optional): Specifies the proxy to use from the LG in order to access the Perfecto API (via HTTPS calls).&#xd;
+- httpsProxyPort (optional)&#xd;
+- httpsProxyLogin (optional)&#xd;
+- httpsProxyPassword (optional)&#xd;
+- pollingDelay (optional): NeoLoad will poll an executing script every X seconds to see if it has completed or not. Max 300 and minimum 10.&#xd;
+- param.DUT (optional): Specify the device ID.</description>
+    <custom-action-parameter name="perfectoURL" type="TEXT" value="https://&lt;accountName>.perfectomobile.com/services/"/>
+    <custom-action-parameter name="securityToken" type="TEXT" value="&lt;securityToken>"/>
+    <custom-action-parameter name="script" type="TEXT" value="&lt;Perfecto_Script_Name.xml>"/>
+    <custom-action-parameter name="instanceID" type="TEXT" value=""/>
+    <custom-action-parameter name="param.DUT" type="TEXT" value=""/>
+    <responsePageFileDescription>recorded-responses/res_4fb95835-52fc-4fda-87dc-8d52b3279682</responsePageFileDescription>
+</custom-action>

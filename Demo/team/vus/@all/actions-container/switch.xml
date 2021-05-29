@@ -1,0 +1,14 @@
+<switch-container condition="" name="switch" uid="c435cfbe-6885-4944-ba98-0956dc24a011">
+    <case-statement case-break="true"
+        case-uid="a40543f9-0709-4ce4-8263-10c5e06fbf69" case-value=""
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+    </case-statement>
+    <default-statement element-number="1" execution-type="0"
+        pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+        pacingValue="0" slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed by default when no Case equals the Switch value.</description>
+    </default-statement>
+</switch-container>

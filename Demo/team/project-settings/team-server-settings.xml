@@ -1,0 +1,4 @@
+<team-server-settings hostAddress="bitbucket.org" port="443"
+    protocol="svn_https"
+    repository="/Amarchalla21/neoload-cicd/src/Develop/"
+    resourcesFolderName="%resources%" thirdParty="true" tunnel=""/>

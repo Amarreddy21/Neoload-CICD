@@ -1,0 +1,14 @@
+<custom-action actionType="Java Test Script Action" isHit="false"
+    name="java_test_script" uid="cb5c677c-a405-4cbc-a4f1-9906da88049b">
+    <description>Launches a Java test script on the Load Generator machine. Jars and resources copied under the 'custom-resources' folder of the project are automatically copied to all Load Generators.
+Use the variable '${NL-CustomResources}' to access the synchronized folder on the Load Generator.
+
+Possible parameters are:
+- JRE: The path to the Java Runtime Environment executable on the Load Generator
+- argX: Java argument number X (eg: arg1, arg2, ...)
+- charset: The charset used by the console. Default platform charset is used if not set.</description>
+    <custom-action-parameter name="JRE" type="TEXT" value="jre/bin/java"/>
+    <custom-action-parameter name="arg1" type="TEXT" value="-jar"/>
+    <custom-action-parameter name="arg2" type="TEXT" value="${NL-CustomResources}/my-test-case.jar"/>
+    <responsePageFileDescription>recorded-responses/res_cef2cb53-b33b-4940-9324-cddd7648a75c</responsePageFileDescription>
+</custom-action>

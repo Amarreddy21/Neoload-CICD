@@ -1,0 +1,12 @@
+# Project description file
+
+project.name=Demo
+project.version=8.2
+project.original.version=8.2
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.8.1
+project.id=6ceb0c85-4c0c-4cef-8f45-de6b06646ad2
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true

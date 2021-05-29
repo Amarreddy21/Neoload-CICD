@@ -1,0 +1,6 @@
+<http-page executeResourcesDynamically="false" name="Dummy"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@all/%resources%/recorded-artifacts/34bacec7-7ee8-449c-93ff-e7b7a74a2042.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="34bacec7-7ee8-449c-93ff-e7b7a74a2042"/>
